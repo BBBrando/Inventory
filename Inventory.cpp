@@ -15,7 +15,7 @@ Inventory::Inventory(string name, float price, int count)//constructor
 
 void Inventory::sell()//sells an item and updates quantity accordingly, if there is no inventory, displays a message
 {if (m_in_stock == 0) {
-  cout<<"Sorry, that item is out of stock"<<end;//error message no quantity
+ cout<<"Sorry, that item is out of stock"<<endl;//error message no quantity
 }else{  m_in_stock--;}//decrease in stock number
 }
 
