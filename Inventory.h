@@ -7,7 +7,7 @@ using std::ostream;
 
 class Inventory    // this class acts as a holder for the values and allows the values of an item in stock to be edited
 {
-  private:
+  private: //private variables for use by class
     string m_name;
     float m_price;
     int m_in_stock;
