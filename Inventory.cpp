@@ -4,7 +4,7 @@
 
 using std::string;
 using std::ostream;
-using std::cout;//added to make compile
+
 
 Inventory::Inventory(string name, float price, int count)//constructor
 {
@@ -15,7 +15,7 @@ Inventory::Inventory(string name, float price, int count)//constructor
 
 void Inventory::sell()//sells an item and updates quantity accordingly, if there is no inventory, displays a message
 {if (m_in_stock == 0) {
- cout<<"Sorry, that item is out of stock"<<endl;//error message no quantity
+ std::cout<<"Sorry, that item is out of stock";//error message no quantity
 }else{  m_in_stock--;}//decrease in stock number
 }
 
