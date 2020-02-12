@@ -5,7 +5,7 @@
 using std::string;
 using std::ostream;
 
-class Inventory
+class Inventory    // this class acts as a holder for the values and allows the values of an item in stock to be edited
 {
   private:
     string m_name;
@@ -14,8 +14,8 @@ class Inventory
 
   public:
     Inventory(string,float,int);
-    void sell();
-    friend ostream& operator<<(ostream&, const Inventory&);
+    void sell();//sells an item and changes quantity
+    friend ostream& operator<<(ostream&, const Inventory&);//output
 };
 
 #endif
