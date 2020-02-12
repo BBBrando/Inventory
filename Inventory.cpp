@@ -25,3 +25,4 @@ ostream& operator<<(ostream& stream, const Inventory& item)//streams quantities 
          << " $"
          << std::fixed << std::setprecision(2) << item.m_price;
   return stream;
+}
