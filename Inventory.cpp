@@ -4,6 +4,7 @@
 
 using std::string;
 using std::ostream;
+using std::cout;//added to make compile
 
 Inventory::Inventory(string name, float price, int count)//constructor
 {
