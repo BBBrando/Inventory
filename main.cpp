@@ -2,7 +2,7 @@
 #include "Inventory.h"
 
 using std::cin;
-using std::cout;
+using std::cout;//rememeber to add STD
 using std::string;
 
 int main()
